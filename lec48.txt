@@ -1,0 +1,7 @@
+
+  //Create Next Question Function
+  void nextQuestion() {
+    if (_questionNumber < _questionBank.length - 1) {
+      _questionNumber++;
+    }
+  }
