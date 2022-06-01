@@ -1,0 +1,11 @@
+scoreKeeper.add(Icon(
+                    Icons.check,
+                  color: Colors.green,
+                ));
+
+setState(() {
+                  scoreKeeper.add(Icon(
+                    Icons.check,
+                    color: Colors.green,
+                  ));
+                });
